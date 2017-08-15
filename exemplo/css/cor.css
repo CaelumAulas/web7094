@@ -1,0 +1,29 @@
+body {
+  background-color: #F00;
+  margin: 0;
+  font-size: 40px;
+}
+
+header {
+  background-color: rgba(0, 0, 255, .5);
+  padding: 20px 60px 40px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style: kannada;
+}
+
+li {
+  padding: 10px 0;
+  margin-bottom: 5px;
+  background-color: magenta;
+}
+
+li:nth-child(even) {
+  background-color: yellow;
+}
