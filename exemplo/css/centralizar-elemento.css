@@ -1,0 +1,27 @@
+body {
+  font-size: 30px;
+}
+
+div {
+  color: white;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#primeira {
+  margin-left: auto;
+  margin-right: auto;
+}
+#segunda {
+  margin-left: auto;
+}
+
+div:nth-child(odd) {
+  background-color: red;
+}
+
+img {
+  vertical-align: middle;
+}

@@ -1,0 +1,33 @@
+li {
+
+  background-repeat: no-repeat;
+}
+
+#netscape {
+  background-image: url(../img/netscape.png);
+  background-size: auto;
+  padding-left: 140px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#firefox {
+  background-image: url(../img/firefox.png);
+  background-position: right center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 140px;
+  text-align: right;
+}
+
+#chrome {
+  background-image: url(../img/chrome.png);
+  background-position: center top;
+  padding-top: 140px;
+  text-align: center;
+}
+
+img {
+  height: 400px;
+  display: none;
+}
