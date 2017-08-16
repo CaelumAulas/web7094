@@ -1,0 +1,37 @@
+ul {
+  text-align: center;
+}
+
+li {
+  width: 33.333%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: red;
+  color: #FFF;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#primeira {
+  line-height: 40px;
+
+}
+
+#segunda {
+
+}
+
+#terceira {
+
+}
+
+li:nth-child(odd) {
+  background-color: blue;
+}
+
+p {
+  background-color: blue;
+  color: #FFF;
+  text-align: center;
+}
