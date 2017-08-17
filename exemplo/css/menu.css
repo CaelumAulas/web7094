@@ -1,0 +1,38 @@
+/*
+https://github.com/CaelumAulas/web7094
+http://flatuicolors.com
+https://www.flaticon.com
+http://caniuse.com
+*/
+
+nav {
+  box-sizing: border-box;
+  background-image: url('../img/menu.svg');
+  background-position: 180px 15px;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  width: 30%;
+  padding: 70px 20px;
+  background-color: #bdc3c7;
+  height: 100%;
+  position: absolute;
+  left: -170px;
+  cursor: pointer;
+
+  transition: left 300ms cubic-bezier(.31,1.59,.58,1.57);
+}
+
+nav:hover {
+  left: 0;
+}
+
+a {
+  font-size: 25px;
+  font-family: 'Open Sans';
+  text-decoration: none;
+  color: #3498db;
+}
+
+article {
+  padding-left: 80px;
+}

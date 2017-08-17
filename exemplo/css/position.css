@@ -1,0 +1,38 @@
+.quadrado {
+  width: 150px;
+  height: 150px;
+  color: white;
+}
+
+.primeiro {
+  background-color: red;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.segundo {
+  background-color: blue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -75px;
+  margin-top: -75px;
+  z-index: 1
+}
+
+.segundo:hover {
+  left: 10px;
+}
+
+.terceiro {
+  background-color: green;
+  position: absolute;
+}
+
+.interno {
+  background-color: yellow;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}

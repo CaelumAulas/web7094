@@ -4,3 +4,7 @@
   list-style: none;
   border: none;
 }
+
+html, body {
+  height: 100%;
+}
