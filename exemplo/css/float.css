@@ -1,0 +1,36 @@
+article {
+  background-color: yellow;
+  overflow: hidden;
+}
+
+section {
+  width: 150px;
+  height: 150px;
+}
+
+.primeira {
+  background-color: red;
+  float: left;
+}
+
+.segunda {
+  background-color: blue;
+  float: right;
+}
+
+.terceira {
+  background-color: green;
+  float: right;
+  height: 300px;
+}
+
+p {
+}
+
+
+div {
+  background-color: black;
+  color: red;
+  width:50px;
+  overflow: hidden;
+}
