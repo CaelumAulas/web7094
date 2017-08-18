@@ -1,0 +1,15 @@
+.sonic {
+  background-image: url(../img/sonic.gif);
+  background-repeat: no-repeat;
+  background-position: -293px -144px;
+  width: 50px;
+  height: 50px;
+
+  animation: corre 1s steps(3) infinite ;
+}
+
+@keyframes corre {
+  100% {
+    background-position: -335px -144px;
+  }
+}
