@@ -1,0 +1,48 @@
+input[type=search] {
+  width: 170px;
+}
+.ultima-linha.coiso[href="seila"] {
+
+}
+
+article {
+  text-align: justify;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  color: #FFF;
+  display: inline-block;
+}
+
+[href=http://google.com.br] {
+
+}
+.ultima-linha {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+.primeira {
+  background-color: red;
+}
+
+.segunda {
+  background-color: blue;
+}
+
+.terceira {
+  background-color: black;
+}
+
+.quarta {
+  background-color: green;
+}
+
+p {
+  text-align: justify;
+}
