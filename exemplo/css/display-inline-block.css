@@ -1,7 +1,9 @@
-input[type=search] {
+input [type=search] {
   width: 170px;
 }
-.ultima-linha.coiso[href="seila"] {
+.ultima-linha,
+.coiso,
+[href="seila"] {
 
 }
 
