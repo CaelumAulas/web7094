@@ -41,8 +41,29 @@ header {
   margin-left: 20px;
 }
 
+.menu-departamentos li li a:before {
+  content: '- ';
+}
+
+.menu-departamentos li ul {
+  display: none;
+}
+.menu-departamentos li:hover ul {
+  display: block;
+}
+.menu-departamentos ul ul li {
+  background-color: #dcdcdc;
+}
+
 .menu-opcoes a {
   color: #003366;
+}
+
+.menu-opcoes a:hover {
+    color: #007dc6;
+}
+.menu-opcoes a:active {
+     color: #867dc6;
 }
 
 .busca,
@@ -129,4 +150,63 @@ header {
   font-size: 14px;
   text-align: center;
   text-decoration: none;
+}
+
+footer {
+  background-image: url(../img/fundo-rodape.png);
+  clear: both;
+  overflow: hidden;
+  padding: 30px 0 20px;
+}
+
+.social {
+  width: 600px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logos {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer div.container {
+  text-align: justify;
+}
+
+footer div.container .linha{
+  display: inline-block;
+  width: 100%;
+}
+
+footer img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social li {
+  float: right;
+  margin-left: 8px;
+}
+
+.social a {
+  /* tamanho da imagem */
+  height: 32px;
+  width: 32px;
+
+  /* image replacement */
+  display: block;
+  text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+  background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+  background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+  background-image: url(../img/googleplus.png);
 }
