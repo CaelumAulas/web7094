@@ -1,0 +1,108 @@
+:root {
+  --verde: #2ecc71;
+  --cinza: #bdc3c7;
+  --vermelho: #e74c3c;
+  --branco: #ecf0f1;
+  --preto: #2c3e50;
+}
+
+.botoes {
+  padding: 0 20px;
+}
+
+.botao {
+  position: relative;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: var(--branco);
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px 0;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, .5);
+  margin-right: 10px;
+
+  transition: opacity 200ms linear, box-shadow 100ms linear;
+}
+
+.botao::after {
+  content: url();
+  border-top: 10px transparent solid;
+  border-left: 10px transparent solid;
+  border-right: 10px transparent solid;
+  border-bottom: 10px black solid;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.botao:hover {
+  opacity: .8;
+}
+
+.botao:active {
+  transform: scale(.98);
+  box-shadow: 0px 0px 0 rgba(0, 0, 0, .5);
+}
+
+.botao_continuar {
+  background-color: var(--verde);
+}
+
+.botao_desfazer {
+  background-color: var(--cinza);
+  color: var(--preto);
+}
+
+.botao_cancelar {
+  background-color: var(--vermelho);
+}
+
+p + p {
+  color: red;
+}
+
+p + h2 {
+  font-size: 40px;
+}
+h2 ~ p {
+  color: blue;
+}
+
+div h2 {
+  color: yellow;
+}
+
+article > h2 {
+  color: magenta;
+}
+
+section!h2 {
+  background-color: red;
+}
+
+h2::before {
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-top: 20px blue solid;
+  border-left: 40px red solid;
+  border-right: 40px green solid;
+  border-bottom: 20px black solid;
+  color: red;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+
+  transition: all 1s linear;
+}
+h2:hover::before {
+  width: 0;
+  height: 0;
+}
+p::first-line {
+  font-size: 40px;
+}
