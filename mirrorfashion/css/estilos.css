@@ -66,6 +66,11 @@ header {
      color: #867dc6;
 }
 
+.busca {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
 .busca,
 .menu-departamentos {
   background-color: #dcdcdc;
@@ -114,18 +119,22 @@ header {
 
 .novidades {
   float: left;
-  background-color: #f5dcdc
+  background-color: #f5dcdc;
+  background: linear-gradient(#f5dcdc, #bebef4);
 }
 
 .mais-vendidos {
   float: right;
   background-color: #dcdcf5;
+  background: linear-gradient(#dcdcf5, #f4bebe);
 }
 
 .painel {
   margin: 10px 0;
   padding: 10px;
   width: 445px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px #999, inset 1px 1px 4px #999;
 }
 
 .painel li {
@@ -141,8 +150,8 @@ header {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-
   margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
 }
 
 .painel a {
