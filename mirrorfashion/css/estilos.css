@@ -115,13 +115,6 @@ header {
 
 .destaque {
   margin-top: 10px;
-
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#88e82e+0,a31f2c+84,7db9e8+100 */
-background: #88e82e; /* Old browsers */
-background: -moz-linear-gradient(top, #88e82e 0%, #a31f2c 84%, #7db9e8 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #88e82e 0%,#a31f2c 84%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #88e82e 0%,#a31f2c 84%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88e82e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
 
 .novidades {

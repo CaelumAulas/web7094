@@ -28,7 +28,8 @@
     <p>Compre suas roupas e acessórios na Mirror Fashion. <a href="index.html">Acesse nossa loja</a> ou entre em contato
     se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a href="<span id="diferenciais"></span>">diferenciais</a>.</p>
 
-    <h2 id="historia">História</h2>
+    <?php $titulo = "História" ?>
+    <h2 id="historia"><?php cho $titulo ?></h2>
 
     <figure id="familia-pelho">
       <img src="img/familia-pelho.jpg" alt="Foto da família Pelho">
