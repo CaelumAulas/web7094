@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+  <form action="cadastro.php">
+    <label for="nome">Nome</label>
+    <input id="nome" name="nomeDoUsuario" type="text">
+
+    <label for="sobrenome">Sobrenome</label>
+    <input id="sobrenome" name="sobrenomeDoUsuario" type="text">
+
+    <label for="email">Email</label>
+    <input id="email" type="email" required>
+
+    <label>Data de Nascimento</label>
+    <input type="month">
+
+    <input type="number">
+
+    <input type="password" pattern="[0-9a-zA-Z]{8}" required>
+
+    <input type="color" name="cor">
+
+    <input type="submit" value="Envia">
+
+    <label for="">Genero</label>
+    <input type="radio" id="masculino" value="Masculino" name="genero"><label for="masculino">Marculino</label>
+    <input type="radio" value="Feminino" name="genero"> Feminino
+    <input type="radio" value="Outros" name="genero"> Outros
+
+    <input type="checkbox">
+    <input type="checkbox">
+    <input type="checkbox">
+    <input type="checkbox">
+    <input type="checkbox">
+
+    <select name="" id="">
+      <option value="">COiso1</option>
+      <option value="">COiso2</option>
+      <option value="">COiso3</option>
+      <option value="">COiso5</option>
+      <option value="">COiso6</option>
+    </select>
+
+    <input type="range" max="10" min="0" step="1">
+  </form>
+</body>
+</html>

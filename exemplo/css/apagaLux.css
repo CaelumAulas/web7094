@@ -1,0 +1,32 @@
+body {
+  background-color: var(--fundo-da-tela)
+}
+
+[for="liga"] {
+  display: block;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+#liga {
+  display: none;
+}
+
+input {
+  display: block;
+}
+
+input:checked + section {
+  background-color: yellow;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
