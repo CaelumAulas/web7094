@@ -1,0 +1,4 @@
+tbody tr:nth-child(2n+1) {
+  color: #FFF;
+  background-color: #000;
+}
