@@ -1,0 +1,17 @@
+form {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, 0);
+}
+
+input[type=submit] {
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+}

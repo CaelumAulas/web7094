@@ -1,0 +1,12 @@
+input {
+  transition: transform 200ms linear;
+  transform-origin: left top;
+}
+
+input:invalid {
+  background-color: red;
+}
+
+input:focus {
+  transform: scale(1.2);
+}
